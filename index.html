@@ -3,12 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyMoviesDB</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="./styles/app.css"/>
+    <link rel="stylesheet" href="./styles/tablet.css">
+    <link rel="stylesheet" href="./styles/desktop.css">
+    <title>My Watchlist DB</title>
 </head>
 <body>
+    <button class="btn-return disabled"><p>Return</p></button>
+    <header class="">
+        <div class="header-category-search header-category-search-active">
+            <h2 class="title-categories titleSearch disabled">Categories</h2>
+            <button class="header-category-search-container disabled">Search<i class="fa fa-search" aria-hidden="true"></i></button>
+            <input type="text" name="search" id="search" class="disabled" autocomplete="off">
+            <button type="button" class="btn-search disabled">Search</button>
+            <button type="button" class="btn-search-cancel disabled"><i class="fa fad fa-times"></i></button>
+        </div>
+        <section class="categories-main-container disabled">
+            <div class="categories-container">
+                <!-- -->>
+            </div>
+        </section>
+    </header>
+    <section class="top-movies-container disabled">
+        <h2 class="top-movies-title">Top 10 movies</h2>
+        <di class="swiper">
+            <div class="swiper-wrap" id="topMovies">
+            <!-- -->
+            </div>
+        </di>
+        <div class="swiper2">
+            <div class="swiper-wrap2">
+                <!-- -->
+            </div>
+            <div class="swiper-next"></div>
+            <div class="swiper-prev"></div>
+        </div>    
+    </section>
+    <section class="new-movies-container disabled">
+        <h2 class="new-movies-title">Upcoming</h2>
+        <div class="new-movies">
+            <!---->
+        </div>
+        <button type="button" class="new-movies-btn">See more</button>
+    </section>
+    <section class="movie-viewer-main disabled">
+        <section class="container-onclick-movie">
+            <div class="container-movie-degraded"></div>
+            <div class="container-degraded"></div>
+        </section>
+        <div class="container-title-ranking">
+            <h2 class="movieTitle">the batman</h2>
+            <div class="rankingContainer">
+                <p class="scoreNumber">Score</p>
+                <div class="rankingContainer-stars">
+                    <!-- -->
+                    <div class="disabled">
+                        <i class="fa fa-star disabled" aria-hidden="true"></i>
+                        <i class="fa fa-star-half disabled" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-moviesCategories">
+
+        </div>
+        <h3 class="movieDescription">Description</h3>
+        <p class="description">In his second year Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem tenetur error, ab incidunt quas, dolorum voluptatem suscipit sequi quasi autem minima ex dolores a! Quis doloribus animi voluptatum alias.</p>
+    </section>
+    <footer>Made with ♥</footer>
     <script src="./src/hidden.js"></script>
     <script src="./src/main.js"></script>
+
 </body>
 </html>
