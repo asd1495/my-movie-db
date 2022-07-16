@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/asd1495/my-movie-db/issues"
   },
-  "homepage": "https://github.com/asd1495/my-movie-db#readme"
+  "homepage": "https://github.com/asd1495/my-movie-db#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
