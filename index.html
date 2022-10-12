@@ -18,7 +18,7 @@
     <h1 class="header-title" id="header-title">My Watchlist <i class="fa-solid fa-film"></i></h1>
     <h1 class="header-title header-title--categoryView inactive" id="header-title--categoryView"></h1>
 
-    <form id="searchForm" class="header-searchForm">
+    <form id="searchForm" class="header-searchForm" onsubmit="this.submit(); this.reset(); return false;">
       <input type="text" placeholder="What are you looking for?"/>
       <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
     </form>
